@@ -1,8 +1,8 @@
 {
   "rewrites":[
     {
-      "source": "/api/backend/:path*",
-      "destination": "https://mrcriper-mentiumbackend.hf.space/api/:path*"
+      "source": "/api/backend/(.*)",
+      "destination": "https://mrcriper-mentiumbackend.hf.space/api/$1"
     },
     {
       "source": "/(.*)",
